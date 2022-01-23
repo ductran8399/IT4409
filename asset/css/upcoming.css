@@ -1,0 +1,73 @@
+.upcoming {
+    color: white;
+    background-color: #4DB7B3;
+    font-family: calibri;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming p:nth-child(1) {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.upcoming p:nth-child(2) {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+
+.upcoming-timebox-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    max-width: 700px;
+    ;
+}
+
+.upcoming-timebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 3px;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.upcoming-timebox span:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.upcoming-timebox span:nth-child(2) {
+    font-family: calibri;
+    font-weight: 500;
+    font-size: 1.5rem;
+    opacity: 0.4;
+}
+
+.upcoming button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 30px;
+    font-family: calibri;
+    font-size: 1.8rem;
+    font-weight: 540;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+}
+
+.upcoming button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}

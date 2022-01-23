@@ -1,0 +1,138 @@
+footer {
+  width: 100%;
+  background-color: #fbfbfb;
+}
+.footer-infor {
+  padding: 20px 0px;
+}
+.footer-infor-header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.footer-infor-header h3 {
+  font-size: 14px;
+  color: #737373;
+}
+.footer-infor-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-infor-list li {
+  height: 25px;
+}
+.footer-infor-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #848484;
+  font-weight: 300;
+}
+.footer-infor-link:hover {
+  text-decoration: none;
+  color: #848484;
+}
+.footer-infor-link-social {
+  display: flex;
+  align-items: center;
+}
+.footer-infor-link span {
+  display: block;
+}
+.footer-infor-link i {
+  color: #333;
+  padding-right: 5px;
+  font-size: 17px;
+}
+.footer-img {
+  display: flex;
+}
+.footer-img-qr {
+  width: 90px;
+  border: 1px solid #747474ab;
+}
+.footer-img-qr img {
+  width: 100%;
+}
+.footer-img-app {
+  height: 90px;
+  margin-left: 20px;
+}
+.footer-img-app-ast {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.footer-img-app-ast img {
+  height: 50%;
+}
+.footer-img-app-ch {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.footer-img-app-ch img {
+  height: 50%;
+}
+.footer-intro {
+  height: 230px;
+  background-color: #f5f5f5;
+}
+.footer-intro-rules {
+  display: flex;
+}
+.footer-intro-list-rules {
+  display: flex;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.footer-intro-list-rules li {
+  padding: 40px;
+}
+.footer-intro-link {
+  text-decoration: none;
+  color: #82868a;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.footer-intro-link:hover {
+  color: #82868a;
+  text-decoration: none;
+}
+.footer-intro-link span {
+}
+.footer-intro-address {
+  text-align: center;
+}
+footer .line {
+  padding: 0;
+  height: 16px;
+  width: 1px;
+  background-color: #aba4a494;
+  margin-top: 45px;
+}
+.footer-intro-address p {
+  font-size: 17px;
+  color: #556573;
+}
+@media (max-width: 767px) {
+  .footer-infor {
+    padding: 0px 10px;
+  }
+  .footer-intro-address p {
+    padding: 0px 20px;
+  }
+  .footer-intro-link span {
+  }
+  footer .line {
+    display: none;
+  }
+  .footer-intro-list-rules {
+    flex-direction: column;
+  }
+  .footer-intro-list-rules li {
+    padding: 10px 0px;
+    text-align: center;
+  }
+}

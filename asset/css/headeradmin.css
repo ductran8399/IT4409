@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  max-height: 100%;
+}
+nav {
+  background-color: #1f2937;
+}
+.nav-box {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+.nav-contain {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  flex-shrink: 0;
+}
+.logo img {
+  height: 2rem;
+  width: 2rem;
+}
+.nav-heading {
+  display: none;
+}
+.nav-heading-box {
+  display: flex;
+  justify-items: baseline;
+  margin-left: 2.5rem;
+}
+.nav-heading-box a {
+  color: #d1d5db;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  margin-left: 1rem;
+}
+.nav-heading-item:hover {
+  background-color: #374151;
+}
+.nav-heading-box a.active {
+  background-color: #111827;
+  color: #fff;
+}
+.nav-heading-box a.active:hover {
+  background-color: #111827;
+  color: #fff;
+}
+.user {
+  display: inline-block;
+  position: relative;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.avatar span {
+  margin-left: 0.75rem;
+  color: #d1d5db;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.user img {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+}
+.box-info {
+  display: none;
+  top: 2.75rem;
+  right: 0;
+  width: 12rem;
+  position: absolute;
+  border-radius: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px #0001, 0 4px 6px -4px #0001;
+  z-index: 1;
+}
+.box-info a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #333;
+}
+.user:hover .box-info {display: block;}
+.hamberger {
+  display: flex;
+  margin-right: 0.5rem;
+  color: #d1d5db;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+.hamberger svg {
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.hamberger button:hover {
+  color: #fff;
+  background-color: #374151;
+}
+.hamberger-list {
+  padding: 0.5rem 0.5rem 0.75rem;
+}
+.hamberger-list a {
+  margin-top: 0.25rem;
+  color: #d1d5db;
+  padding: 0.5rem 0.75rem;
+  font-weight: 500;
+  display: block;
+  border-radius: 0.375rem;
+  line-height: 1.5rem;
+}
+.hamberger-list a:hover {
+  color: #fff;
+  background-color: #374151;
+}
+.hamberger-list a.active {
+  background-color: #111827;
+  color: #fff;
+}
+.mobile-user {
+  padding: 1rem 0 0.75rem;
+  border-top: 1px solid #fff3;
+}
+.mobile-avatar {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.mobile-avatar img {
+  margin-left: 0.75rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.mobile-avatar .mobile-name {
+  margin-left: 0.75rem;
+  color: #d1d5db;
+  font-weight: 500;
+}
+.mobile-box-info {
+  margin-top: 0.75rem;
+  padding: 0 0.5rem;
+}
+.mobile-box-info a {
+  margin-top: 0.25rem;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  color: #d1d5db;
+}
+.mobile-box-info a:hover {
+  color: #fff;
+  background-color: #374151;
+}
+.header-main {
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 #0001, 0 1px 2px -1px #0001;
+}
+
+@media (min-width: 768px) {
+  .nav-box {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .nav-heading {
+    display: block;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 1.5rem;
+  }
+  .hamberger {
+    display: none;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  .header-main-box {
+    padding: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .header-main-box {
+    padding: 1.5rem 2rem;
+  }
+}

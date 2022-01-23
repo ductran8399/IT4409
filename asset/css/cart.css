@@ -1,0 +1,238 @@
+.has-product {
+  /* margin: 20px 0px; */
+}
+.has-product .start {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.has-product .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.has-product .title {
+  height: 56px;
+  background-color: white;
+  border-radius: 4px;
+}
+.has-product .title .data {
+  height: 100%;
+}
+.has-product .title input {
+}
+.has-product .title span {
+  font-size: 17px;
+  color: #00000094;
+}
+.has-product .products {
+  margin: 10px 0px;
+  padding: 0;
+}
+.has-product .products .product {
+  background-color: white;
+  padding: 10px 0px;
+}
+.has-product .products .data {
+  height: 100%;
+}
+.has-product .products .product img {
+  width: 80px;
+}
+.has-product .products .product .name-product {
+  padding-left: 30px;
+}
+.has-product .products .product button {
+  border: none;
+  outline: none;
+  background-color: #ee4d2d;
+  color: #fff;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.has-product .buy {
+  height: 60px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: end;
+  background-color: white;
+  align-items: center;
+}
+.has-product .buy span {
+  margin-right: 50px;
+}
+.has-product .buy button {
+  border: none;
+  outline: none;
+  height: 33px;
+  background-color: #ee4d2d;
+  color: white;
+  border-radius: 3px;
+  width: 130px;
+}
+.no-has-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-has-product button {
+  outline: none;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  background-color: #fb5433;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .has-product .title span {
+    font-size: 14px;
+  }
+  .has-product .data span {
+    font-size: 14px;
+  }
+  .has-product .products .product .name-product {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .has-product .products .product img {
+    width: 50px;
+  }
+  .has-product .products .product button {
+    width: 50px;
+  }
+}
+@media (max-width: 414px) {
+  .has-product .title span {
+    font-size: 12px;
+  }
+  .has-product .data span {
+    font-size: 12px;
+  }
+  .has-product .products .product .name-product {
+    font-size: 12px;
+  }
+  .has-product .products .product button {
+    width: 42px;
+    font-size: 13px;
+  }
+}
+/* Modal */
+.modal-box {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000094;
+}
+.modal-box .modal-buy {
+  margin: auto;
+  max-width: 95vw;
+  width: 600px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+.modal-box .product img {
+  width: 50px;
+}
+.modal-box .modal-heading {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #3332;
+}
+.modal-box .product .start {
+  display: flex;
+  align-items: center;
+}
+.modal-box .products {
+  padding: 0;
+}
+.modal-box .products .product {
+  margin-top: 10px;
+}
+.modal-box .data {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.modal-box .center {
+  text-align: center;
+}
+.modal-box .name-product {
+  padding-left: 10px;
+}
+.modal-box .buy {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+.modal-box .buy span {
+  font-weight: 600;
+}
+.modal-box .money {
+  color: orangered;
+  padding-left: 15px;
+}
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.modal-box .input-element {
+  display: flex;
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.modal-box .input-element label {
+  color: #333c;
+}
+.modal-box .input-element input {
+  height: 35px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+}
+.modal-box .input-element input:hover {
+  border: 1px solid orangered;
+}
+.modal-box .payment-box {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.modal-box .payment {
+  height: 45px;
+  width: 180px;
+  background-color: #fb5433;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+.modal-box .form-input-heading {
+}
+@media (max-width: 414px) {
+  .modal-box .products {
+    font-size: 12px;
+  }
+  .modal-box .input-element {
+    width: 100%;
+  }
+}
+
+/* End-Modal */
